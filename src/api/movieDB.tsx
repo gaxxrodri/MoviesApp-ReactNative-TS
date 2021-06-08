@@ -1,4 +1,6 @@
 import axios from 'axios';
+require('dotenv').config();
+
 
 const movieDB = axios.create({
     baseURL: 'https://api.themoviedb.org/3/movie',
